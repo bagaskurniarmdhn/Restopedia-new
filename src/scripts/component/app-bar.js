@@ -9,7 +9,7 @@ class AppBar extends HTMLElement {
     <header class="app-bar">
     <a href="#mainContent" class="skip-link">Menuju ke menu</a>
     <div class="app-bar__menu">
-      <button id="hamburgerButton">&#9776;</button>
+      <button id="hamburgerButton" aria-label="hamburger-button">&#9776;</button>
     </div>
     <div class="app-bar__brand">
       <a href="/"><img class="logo" src="./images/logo/restopedia.png" alt="Restopedia Logo" ></a>
