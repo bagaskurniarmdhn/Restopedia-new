@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 Feature("Liking Restaurant");
 
-Scenario("test something", ({ I }) => {
+Scenario("liking one restaurant and unlike", ({ I }) => {
   I.amOnPage("#/");
 
   I.executeScript("window-scrollTo(0, 1000);");
